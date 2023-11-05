@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-data-science"
+version = "0.1.0"
+description = ""
+authors = ["Noma9d <woody0740@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_data_science"}]
+
+[tool.poetry.dependencies]
+python = "3.11"
+numpy = "^1.26.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
