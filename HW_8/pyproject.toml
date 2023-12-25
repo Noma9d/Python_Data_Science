@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hw-8"
+version = "0.1.0"
+description = ""
+authors = ["Noma9d <woody0740@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hw_8"}]
+
+[tool.poetry.dependencies]
+python = "3.10.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
